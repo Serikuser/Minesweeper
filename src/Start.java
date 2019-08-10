@@ -1,0 +1,9 @@
+import Initialization.GameInitialization;
+
+public class Start {
+
+
+    public static void main(String[] args) {
+        new GameInitialization();
+    }
+}
