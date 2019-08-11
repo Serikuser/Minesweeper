@@ -15,10 +15,10 @@ public class GameInitialization extends JFrame implements KeyListener {
 
     private JPanel panel;
     private JLabel label;
-    private final int COLS = 9;
-    private final int ROWS = 9;
-    private final int IMAGE_SIZE = 40;
-    private final int BOMBS = 10;
+    private final int COLS = 20;
+    private final int ROWS = 20;
+    private final int IMAGE_SIZE = 20;
+    private final int BOMBS = 40;
 
     Setup newGame = new Setup(COLS, ROWS, BOMBS);
 
